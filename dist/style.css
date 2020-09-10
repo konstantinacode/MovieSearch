@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body{
+    margin: 10%;
+    background-color: beige;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+  }
+
+  .main-title{
+    text-align: center;
+    padding-bottom: 2%;
+    font-style: italic;
+  }
+
+  #searchText {
+    background-position: 10px 12px;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin: 12px;
+  }
+  
+  .results{
+      position: relative;
+      width: 20%;
+      padding-right: 15px;
+      padding-left: 15px;
+      border: hidden;
+  }
+
+  .poster{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .results:hover{
+    background-color: bisque;
+  }
+
+  h2{
+    text-decoration: underline;
+  }
+
+  .elemClick{
+    display: block;
+    margin-left: auto;
+    margin-right: 5px;
+  }
+
+  #poster{
+    float: left;
+    margin: 2%;
+    border: 2px silver outset; 
+  }
+
+  #details{
+    float: left;
+    margin-left: 10%;
+    margin-right: auto;
+    padding-top: 5%;
+    width: 40%;
+  }
+
+  #plot{
+    clear: both;
+  }
+
+  ul li{
+    list-style-type:none;
+  }
+
+  button{
+    padding: 10px;
+    margin: 20px;
+  }
+
+  button a{
+    text-decoration: none;
+  }
+
+  button:hover{
+    background-color: darkcyan;
+  }
+
+  .btns{
+    display: block;
+    margin-right: 2%;
+    margin-left: auto;
+    float: right;
+  }
+
+  .c{
+    clear: both;
+  }
+
+  #movies{
+    height: 100%;
+    width: 100%;
+  }
+  #movies img, #movie img{
+    width:100%;
+  }
+
+  .divBlock {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    margin-left: 1%;
+  }
+
+  .description{
+    width: 100%;
+    padding: 1%;
+  }
+
+  .toBottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+
+  #searchForm{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
